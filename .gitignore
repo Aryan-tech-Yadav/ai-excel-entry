@@ -1,0 +1,34 @@
+# Secrets
+.env
+.env.*
+!.env.example
+!.env.sample
+
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+venv/
+env/
+
+# Local data and Excel files
+data/*.xlsx
+data/*.xls
+data/*.csv
+*.xlsx
+*.xls
+
+# Private credentials
+secrets/
+credentials.json
+service-account*.json
+
+# OS and editor files
+.DS_Store
+.vscode/
+
+# Local runtime data
+logs/
+backups/
+.agents/
